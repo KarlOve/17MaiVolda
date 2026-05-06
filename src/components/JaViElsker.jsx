@@ -2,7 +2,7 @@ import React from 'react';
 
 function JaViElsker() {
   return (
-    <div>
+    <section id="javielsker" className="section">
       <h2>Ja, vi elsker dette landet</h2>
       <p>
         Ja, vi elsker dette landet,<br />
@@ -41,7 +41,7 @@ function JaViElsker() {
         Tekst: Bjørnstjerne Bjørnson<br />
         Mel.: Rikard Nordraak
       </p>
-    </div>
+    </section>
   );
 }
 

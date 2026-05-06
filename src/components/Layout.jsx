@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import './Layout.css';
 
 function Layout({ children }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -13,18 +14,34 @@ function Layout({ children }) {
     setIsDropdownOpen(false);
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    if (isDropdownOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isDropdownOpen]);
+
   return (
     <div>
       <header className="site-header">
         <div className="container header-inner">
           <Link to="/" className="brand">
-            <h1>17. Mai 2026</h1>
+            <h1>17. Mai Volda 2026</h1>
           </Link>
         </div>
         <div className="container">
           <nav id="main-nav" className="main-nav">
             <Link to="/" className="nav-button">Program</Link>
-            <div className={`nav-dropdown ${isDropdownOpen ? 'open' : ''}`}>
+            <div ref={dropdownRef} className={`nav-dropdown ${isDropdownOpen ? 'open' : ''}`}>
               <button
                 type="button"
                 className="dropdown-toggle"

@@ -2,7 +2,7 @@ import React from 'react';
 
 function DetGarEitFesttog() {
   return (
-    <div>
+    <section id="detgareitfesttog" className="section">
       <h2>Det går eit festtog gjennom landet!</h2>
       <p>
         1. Det går eit festtog gjennom landet!<br />
@@ -45,7 +45,7 @@ function DetGarEitFesttog() {
         Mel./Arr.: Carl-Andreas Næss<br />
         Til nynorsk ved Gudrun Kløve Juuhl og Anne Steinsvik Nordal
       </p>
-    </div>
+    </section>
   );
 }
 

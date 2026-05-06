@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nordmannen() {
   return (
-    <div>
+    <section id="nordmannen" className="section">
       <h2>Nordmannen</h2>
       <p>
         Mellom bakkar og berg utmed havet<br />
@@ -29,7 +29,7 @@ function Nordmannen() {
         Tekst: Ivar Aasen<br />
         Mel.: Ludvig M. Lindeman
       </p>
-    </div>
+    </section>
   );
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Program from './components/Program';
@@ -8,7 +8,14 @@ import GudSigne from './components/GudSigne';
 import DetGarEitFesttog from './components/DetGarEitFesttog';
 import './components/Layout.css';
 
+const theme = 'theme-norwegian';
+// Use 'theme-mono' for the simple black/white/grey style.
+
 function App() {
+  useEffect(() => {
+    document.documentElement.className = theme;
+  }, []);
+
   return (
     <Router>
       <Layout>

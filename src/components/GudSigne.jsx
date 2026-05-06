@@ -2,7 +2,7 @@ import React from 'react';
 
 function GudSigne() {
   return (
-    <div>
+    <section id="gudsigne" className="section">
       <h2>Gud signe vårt dyre fedreland</h2>
       <p>
         Gud signe vårt dyre fedreland,<br />
@@ -35,7 +35,7 @@ function GudSigne() {
         Tekst: Elias Blix<br />
         Mel.: Christopher Ernst Weyse
       </p>
-    </div>
+    </section>
   );
 }
 
