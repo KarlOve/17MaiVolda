@@ -51,8 +51,15 @@ function Program() {
               Song ved fjerdeklassingane ved skulane i Volda, leia av Gunnar Sigve Aurdal<br />
               Helsing frå ordførar Sølvi Dimmen<br />
               Song av Volda mannskor<br />
-              Volda mannskor syng først på Volda omsorgssenter, deretter på Fjordsyn.
             </td>
+          </tr>
+          <tr>
+            <td>10:00</td>
+            <td>Volda mannskor syng først på Volda omsorgssenter, deretter på Fjordsyn.</td>
+          </tr>
+          <tr>
+            <td>10:15</td>
+            <td>Volda blandakor syng på Volda sjukehus</td>
           </tr>
           <tr>
             <td>11:00</td>
@@ -63,10 +70,6 @@ function Program() {
             </td>
           </tr>
           <tr>
-            <td>11:15</td>
-            <td>Volda blandakor syng på Volda sjukehus</td>
-          </tr>
-          <tr>
             <td>12:00</td>
             <td>Festgudsteneste i Volda kyrkje. Volda blandakor tek del</td>
           </tr>
@@ -74,12 +77,22 @@ function Program() {
             <td>12:15</td>
             <td>
               Leikar på Uppheimsplassen med premiar til alle born (slutt kl. 14.00)<br />
-              Mork musikkorps spelar ved undergangen i Morkavegen. Deretter går toget heile Morkavegen fram til Grendahuset (skulen). Der vert det leikar for born med premiar og sal av brennsnut og kaker.
+            </td>
+          </tr>
+          <tr>
+            <td>12:15</td>
+            <td>
+              Mork musikkorps spelar ved undergangen i Morkavegen.<br />
+              Deretter går toget heile Morkavegen fram til Grendahuset (skulen).<br />
+              Der vert det leikar for born med premiar og sal av brennsnut og kaker.
             </td>
           </tr>
           <tr>
             <td>12:30</td>
-            <td>Bratteberg skule: Leikar for born med premiar (slutt kl. 14.30). Bratteberg grendalag har kiosk og kafé.</td>
+            <td>
+              Bratteberg skule: Leikar for born med premiar (slutt kl. 14.30).<br />
+              Bratteberg FAU har kiosk og kafé.
+            </td>
           </tr>
           <tr>
             <td>12:20</td>
@@ -115,9 +128,13 @@ function Program() {
           </tr>
           <tr>
             <td>15:30</td>
+            <td>Volda Hornmusikk speler ved Volda omsorgssenter</td>
+          </tr>
+          <tr>
+            <td>15:30</td>
             <td>
-              Volda Hornmusikk speler ved Volda omsorgssenter<br />
-              Oppstilling av folketoget på Steinrøysa. Toget stiller i denne rekkjefølgja:
+              Oppstilling av folketoget på Steinrøysa.<br />
+              Toget stiller i denne rekkjefølgja:
               <ol>
                 <li>17. mai nemnda</li>
                 <li>Speidarane</li>
@@ -133,7 +150,6 @@ function Program() {
                 <li>Volda blandakor</li>
                 <li>Volda vidaregåande skule</li>
                 <li>Øvrige borgarar</li>
-                <li>Volda og Ørsta trailklubb</li>
                 <li>Ørsta Volda Gatebilklubb</li>
                 <li>Russen 2026</li>
               </ol>
@@ -144,7 +160,8 @@ function Program() {
             <td>
               Salutt<br />
               Folketoget går denne ruta: Steinrøysa, Volda omsorgssenter, Engesetvegen, Storgata, Skjervavegen, Industrigata, Holmen, Hamnegata, Sjøgata, Storgata, Kyrkjegata, Uppheimsplassen.<br />
-              På Uppheimsplassen: Volda Hornmusikk, Volda skulekorps og Morkakorpset speler til «Gud signe vårt dyre fedreland».<br />
+              På Uppheimsplassen:<br />
+              Volda Hornmusikk, Volda skulekorps og Morkakorpset speler til «Gud signe vårt dyre fedreland».<br />
               Tale for dagen ved Karoline Hasle Einang<br />
               Korpsa spelar og me syng «Nordmannen»<br />
               Russetale ved Mia Vatne Aa og Sander Velsvik Bjørneset<br />
@@ -153,11 +170,18 @@ function Program() {
           </tr>
           <tr>
             <td>17:30</td>
+            <td>17. mai-fest på Volda bedehus</td>
+          </tr>
+          <tr>
+            <td>17:30</td>
             <td>
-              17. mai-fest på Volda bedehus<br />
-              Kino på Volda samfunnshus: Super Mario Galaxy (Dørene opnar kl. 17.00. Billettar kr 50,-)<br />
-              17. mai-fest i Pinsekyrkja i Volda
+              Kino på Volda samfunnshus: Super Mario Galaxy<br />
+              (Dørene opnar kl. 17.00. Billettar kr 50,-)
             </td>
+          </tr>
+          <tr>
+            <td>18:00</td>
+            <td>17. mai-fest i Pinsekyrkja i Volda</td>
           </tr>
           <tr>
             <td>20:00</td>
