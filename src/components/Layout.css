@@ -72,6 +72,11 @@
   margin-bottom: 1.5rem;
 }
 
+.section.warning-box {
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+}
+
 * {
   box-sizing: border-box;
 }
